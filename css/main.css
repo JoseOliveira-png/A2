@@ -6,7 +6,6 @@ padding: 0;
 }
 
 .background {
-	overflow: hidden;
 	display: block;
 	height:auto;
 	width:100%; 
@@ -14,6 +13,14 @@ padding: 0;
 }
 .mobile {
 	display: none;
+}
+@media screen and (max-width: 1290px) {
+.background {
+	background: 100%;
+    background-size: cover;
+    overflow: hidden;	
+    margin: 0 auto;
+}
 }
 @media screen and (max-width: 992px) {
 .background {
